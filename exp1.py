@@ -1,3 +1,7 @@
+# Develop a logistics strategy analogous to the missionaries 
+# and cannibals problem to transport goods using python.
+
+
 from collections import deque
 
 def transport_goods():
