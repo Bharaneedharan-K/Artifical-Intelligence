@@ -1,3 +1,6 @@
+# Develop a tourism management system, similar to 
+# the traveling salesman problem using python.
+
 import itertools
 
 def calculate_distance(path, distance_matrix):
