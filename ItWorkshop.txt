@@ -1,0 +1,64 @@
+﻿exp - 1
+
+      Develop a MATLAB program to synthesize a square wave using Fourier series, applicable in 
+      creating custom sounds and analyzing audio signals.
+
+      1. Initialize parameters including fundamental frequency, sampling frequency, duration, and the
+      number of harmonics.
+      2. Generate a time vector from 0 to the specified duration with an appropriate step size.
+      3. Compute the Fourier series approximation by summing the odd harmonics of the sine function.
+      4. Normalize the synthesized wave to ensure it stays within the desired amplitude range.
+      5. Plot and visualize the generated square wave along with its frequency spectrum.
+      6. Play the synthesized wave using MATLAB’s sound() function to hear the output.
+
+
+exp -2 
+
+
+     Develop MATLAB program to analyze ECG signals using Fourier and Z-Transforms, helping to identify 
+     heart rate variability (HRV).
+
+      1. Load the ECG signal from a dataset or an acquisition device for analysis.
+      2. Preprocess the signal by applying filtering techniques to remove noise and artifacts.
+      3. Compute the Fast Fourier Transform (FFT) to analyze the frequency components of the ECG signal.
+      4. Compute the Z-Transform to study the pole-zero characteristics and system behavior of the signal.
+      5. Identify heart rate variability (HRV) by detecting R-peaks and analyzing time and frequency 
+      domain features.
+      6. Visualize the results by plotting the ECG waveform, FFT spectrum, and HRV analysis for 
+      interpretation.
+
+
+exp - 3
+
+     Develop a MATLAB program to generate and visualize common continuous-time and discrete-time signals 
+     (step, impulse, exponential, ramp, sine), analyzing and comparing their properties in both domains 
+     to model and understand the behavior of a first-order RC circuit's response to various inputs.
+
+      1. Define continuous-time and discrete-time variables over a specified range for signal generation.
+      2. Generate common signals, including step, impulse, exponential, ramp, and sine waves, in both 
+      continuous and discrete domains.
+      3. Analyze and compare the properties of these signals by examining their amplitude, frequency, and 
+      time-domain characteristics.
+      4. Model the behavior of a first-order RC circuit by defining its parameters and mathematical response 
+      to different input signals.
+      5. Compute the circuit’s response using convolution or differential equation methods to understand 
+      system dynamics.
+      6. Visualize and compare the generated signals and the RC circuit’s response by plotting results in 
+      both continuous and discrete domains.
+
+
+exp - 4
+
+      Develop a MATLAB program to analyze the frequency response of a digital filter, visualizing its magnitude
+      and phase characteristics to evaluate its performance and key parameters. 
+
+      1. Define the digital filter specifications, including filter type, order, cutoff frequency, and 
+      sampling rate.
+      2. Design the filter using standard MATLAB functions such as butter, cheby1, or fir1 based on the 
+      required response.
+      3. Compute the frequency response of the filter using the freqz function to obtain magnitude and phase 
+      information.
+      4. Analyze the magnitude response to evaluate filter attenuation, passband, and stopband behavior.
+      5. Examine the phase response to assess phase distortion and filter stability.
+      6. Visualize the magnitude and phase characteristics using plots to interpret the filter’s performance 
+      effectively.
