@@ -62,3 +62,42 @@ exp - 4
       5. Examine the phase response to assess phase distortion and filter stability.
       6. Visualize the magnitude and phase characteristics using plots to interpret the filter’s performance 
       effectively.
+
+exp - 5
+
+	Develop a MATLAB program to compute and visualize the Fourier and Z-transforms of a sampled audio 
+	signal, analyzing its frequency content and relating the pole-zero plot of the Z-transform to
+	the presence of specific frequencies and the overall stability of the digital representation.
+
+	1. Read the audio signal using audioread, convert it to mono if it's stereo, and normalize it.
+	2. Compute the FFT to get the frequency content and plot its magnitude spectrum.
+	3. Model the signal or system for Z-transform analysis using zplane or related functions.
+	4. Visualize both FFT and Z-transform, showing frequency peaks and the pole-zero plot.
+	5. Interpret the plots to identify key frequencies and check if the poles lie inside the unit circle for 
+	   stability.
+
+exp - 6
+
+	Develop a MATLAB program to compute and visualize the cross-correlation of two given sequences x(n) and y(n),
+	and the autocorrelation of sequence x(n), demonstrating their properties and potential use in signal analysis 
+	applications like echo detection or signal alignment.
+
+	1. Define or input the sequences x(n) and y(n) manually or through a signal source.
+	2. Compute the cross-correlation between x(n) and y(n) using MATLAB’s xcorr function.
+	3. Compute the autocorrelation of x(n) by correlating it with itself using xcorr(x).
+	4. Plot the results of both cross-correlation and autocorrelation to observe symmetry and peak alignment.
+	5. Interpret the plots to understand time shift, similarity, or delays—useful in applications like echo detection 
+	   or signal synchronization.
+
+exp - 7
+
+	Develop a MATLAB program to implement and visualize linear convolution of discrete-time sequences, simulating
+	a digital filter's effect on an input signal for applications in areas like audio or image processing.
+	
+	1. Input the discrete-time sequences representing the signal and filter impulse response.
+	2. Use the conv function to perform linear convolution of the two sequences.
+	3. Calculate the time axis for the output based on the lengths of the input signals.
+	4. Plot the original sequences and the output to visualize the filtering effect.
+	5. Interpret the result to understand how the filter modifies the input for applications like audio or image 
+	   processing
+
